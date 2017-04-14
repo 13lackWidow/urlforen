@@ -21,7 +21,7 @@ function foren {
   echo
   proxychains-ng curl -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30" -I "$url"
   echo
-  echo "Obtaining source from"$url"."
+  echo "Obtaining source from "$url"."
   echo
   proxychains-ng curl -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30" "$url"
   exit
